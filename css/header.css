@@ -1,0 +1,118 @@
+.header,.col{
+    background: rgba(0,0,0,.15);
+    position: fixed;
+    width: 100%;
+    min-width: 1170px;
+    top:0;
+    height: 80px;
+}
+.header .inner a{
+    width: 200px;
+    float: left;
+    height: 40px;
+    line-height: 80px;
+    position: relative;
+}
+.header .inner a img{
+    width: 130px;
+    height: 100%;
+    position: absolute;
+    top:18px;
+}
+.header ul{
+    float: left;
+}
+.header ul li{
+    float:left;
+    border-top: 4px solid transparent;
+    margin-right: 15px;
+    height: 72px;
+    line-height: 72px;
+    font-size: 14px;
+    padding: 0 10px;
+    color: #fff;
+}
+.header ul li.on{
+    border-top: 4px solid #fff;
+}
+.header ul li.cli{
+    border-top: 4px solid #fff;
+}
+.header ul li.new{
+    position: relative;
+}
+.header ul li i{
+    background: url(../img/new.png) no-repeat;
+    position:absolute;
+    top: 12px;
+    left: 40px;
+    width: 24px;
+    height: 17px;
+}
+.header .side{
+    float: right;
+}
+.header .side>div{
+    margin-top: 24px;
+    float: left;
+    font-size: 14px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+}
+.header .side .lt{
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    background: #fff;
+    color: #666;
+}
+.header .side .rt{
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 0;
+}
+.col,.col1{
+    background: white;
+}
+.col ul li,.col1 ul li{
+    color: black;
+}
+.col ul li.on,.col1 ul li.on{
+    border-top: 4px solid #59cfff;
+}
+.col .side>div,.col1 .side>div{
+    color: black;
+}
+.col .side .lt,.col1 .side .lt{
+    background: #59c4ff;
+    border: 1px solid #59c4ff;
+    color: #fff;
+}
+.col .side .rt,.col1 .side .rt{
+    border: 1px solid #dcdcdc;
+}
+.col ul li.cli,.col1 ul li.cli{
+    border-top: 4px solid #59cfff;
+}
+.header .img1{
+    display: block;
+}
+.header .img2{
+    display: none;
+}
+.col .img1,.col1 .img1{
+    display: none;
+}
+.col .img2,.col1 .img2{
+    display: block;
+}
